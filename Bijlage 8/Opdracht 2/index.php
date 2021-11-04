@@ -25,6 +25,7 @@
          * @param   String  $word   The filled in word
          * @return  String  $word   The word that has been checked
          */
+        //bedoeling is een instinker, je moet gewoon met subsrt 2e char tot laatste (-1) naar kleine letters doen lol
         function changeWord($word) {
             $lenght = strlen($word); //Get total lenght of word
             
